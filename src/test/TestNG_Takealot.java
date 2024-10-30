@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 public class TestNG_Takealot {
 
 	@Test
-	public void Reg()
-	{
+	public void Reg() throws InterruptedException {
 		   // Test code here
         String name = "Luckson M";
         String lastname = "Test";
